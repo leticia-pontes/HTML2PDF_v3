@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Propriedades para empacotamento NuGet -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>HTML2PDF_v3</PackageId>
+		<!-- Nome do pacote no NuGet -->
+		<Version>1.0.0</Version>
+		<!-- Número de versão do pacote -->
+		<Description>Biblioteca para converter HTML em PDF usando binarização.</Description>
+		<RepositoryUrl>https://github.com/leticia-pontes/HTML2PDF_v3</RepositoryUrl>
+		<!-- URL do repositório GitHub -->
+	</PropertyGroup>
+
+</Project>
